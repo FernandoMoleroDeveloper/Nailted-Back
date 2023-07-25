@@ -245,7 +245,7 @@ export const sendResultsMail = async (email: string, dataResults: DataResults, c
     <table class="heading_block block-7" width="100%" border="0" cellpadding="10" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
     <tr>
     <td class="pad">
-    <h3 style="margin: 0; color: black; direction: ltr; font-family: 'Roboto', Tahoma, Verdana, Segoe, sans-serif; font-size: 24px; font-weight: 700; letter-spacing: normal; line-height: 120%; text-align: center; margin-top: 0; margin-bottom: 0;"><span class="tinyMce-placeholder">"${companyName}"</span></h3>
+    <h3 style="margin: 0; color: black; direction: ltr; font-family: 'Roboto', Tahoma, Verdana, Segoe, sans-serif; font-size: 24px; font-weight: 700; letter-spacing: normal; line-height: 120%; text-align: center; margin-top: 0; margin-bottom: 0;"><span class="tinyMce-placeholder">${companyName}</span></h3>
     </td>
     </tr>
     <tr>
